@@ -45,7 +45,7 @@ UserInputService.InputBegan:Connect(function(input, proc)
 
 			if (maxInterval-minInterval<=delta) or current<min_time then
 				print("AUTOCLICKER DETECTED!")
-				-- kicked=true
+				--kicked=true
 				return
 			end
 		end

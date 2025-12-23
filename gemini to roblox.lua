@@ -83,7 +83,7 @@ RemoteEvent.OnServerEvent:Connect(function(player, text)
 	task.delay(3, function()
 		cooldown[player] = nil
 	end)
-
+end)
 
 
 --StarterPlayerScripts -> Localscript

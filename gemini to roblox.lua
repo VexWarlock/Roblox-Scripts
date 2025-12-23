@@ -86,6 +86,7 @@ RemoteEvent.OnServerEvent:Connect(function(player, text)
 end)
 
 
+
 --StarterPlayerScripts -> Localscript
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -119,7 +120,6 @@ button.MouseButton1Click:Connect(function()
 		RemoteEvent:FireServer(text)
 		box.Text = ""
 	end
-end)
 end)
 
 
